@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    /* background-color: #2F3E5B; */
+    /* background-color: #3a6ca5; */
+    background-image: url(./943556-dance-background-images-1920x1080-macbook.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    width: 70%;
+    min-height: 450px;
+    padding-block: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;  
+}
+form span{
+    width: 60%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input{
+    width: 85%;
+    height:50px;
+    border-radius: 22px;
+    padding-left: 15px;
+    font-size: 18px;
+    font-weight: 550;
+    border: 1px solid darkmagenta;
+    outline: none;
+}
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid darkmagenta;
+    cursor: pointer;
+}
+button i{
+    font-size: 16px;
+    font-weight: 800;
+}
+.result{
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    /* padding-block: 20px; */
+}
+#one{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.result span img{
+    width: 150px;
+}
+.result h1{
+    font-size: 55px;
+    font-weight: 500;
+    color:yellow;
+    padding-top: 30px;
+}
+.result h1 i{
+    font-size: 15px;
+    font-weight: 500;
+}
+.result h2{
+    font-size: 35px;
+    font-weight: 500;
+    color: white;
+    padding-top: 20px;
+}
+.down{
+    width: 100%;
+    height: auto;
+    padding-top: 100px;
+    display: flex;
+    padding-inline: 20%;
+}
+.down span{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.down h1 img{
+    width: 55px;
+}
+.down h1{
+  font-size: 28px; 
+  color: white;
+}
+.down h1 p{
+    padding-left: 25px;
+}
+
+@media (max-width:768px) {
+    .container{
+        width: 100%;
+        height:100vh;
+    }
+    form{
+        width: 100%;
+        height: auto;
+        padding-top: 50px;
+    }
+    form span{
+        width: 100%;
+        padding-inline: 3%;
+    }
+    .new{
+        padding-inline: 8%;
+    }
+    input{
+        width: 73%;
+        padding-left: 25px;
+    }
+    #one{
+        padding-top: 8px;
+    }
+    .result h1{
+        font-size: 40px;
+        padding-top: 30px;
+    }
+    .result h2{
+        font-size: 35px;
+        padding-top: 30px;
+        text-align: center;
+    }
+    .down{
+        width: 100%;
+        padding-inline: 0%;
+    }
+    .down h1 img{
+        width: 40px;
+    }
+    .down h1{
+        font-size: 25px;
+    }
+
+}
